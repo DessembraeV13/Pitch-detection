@@ -60,24 +60,6 @@ Poniżej przedstawiono przykład analizy sygnału testowego o częstotliwości 4
 </div>
 
 ---
-
-## Zastosowane Technologie
-
-#### 🛠️ Sprzęt
-- **Płytka deweloperska:** STMicroelectronics NUCLEO-F446RE
-
-#### 💻 Oprogramowanie i Biblioteki
-- **Język:** C
-- **Środowisko IDE:** STM32CubeIDE
-- **Kluczowe Biblioteki i Koncepcje:**
-  - Biblioteka **STM32 HAL**
-  - Biblioteka **CMSIS-DSP** (dla zoptymalizowanych funkcji FIR i FFT)
-  - **DMA** z trybem cyklicznym i przerwaniami (Ping-Pong Buffer)
-  - Peryferia: **ADC**, **DAC**, **Timers**, **UART**
-  - Algorytmy: **FFT**, **Filtr FIR**, **Okno Hanninga**
-
----
-
 ## Licencja
 
 Ten projekt jest udostępniony na licencji MIT - zobacz plik [LICENSE](LICENSE) po szczegóły.
